@@ -21,7 +21,7 @@ if ( 'mail.example.com' === $mailserver_url || empty( $mailserver_url ) ) {
 	wp_die( __( 'This action has been disabled by the administrator.' ), 403 );
 }
 
-/**
+/**. 
  * Fires to allow a plugin to do a complete takeover of Post by Email.
  *
  * @since 2.9.0
